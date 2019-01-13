@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "myiconfont";
+    src: url("../fonts/icons/myiconfont.eot");
+    src: url("../fonts/icons/myiconfont.eot?#iefix") format("eot"), url("../fonts/icons/myiconfont.woff") format("woff"), url("../fonts/icons/myiconfont.ttf") format("truetype"), url("../fonts/icons/myiconfont.svg#myiconfont") format("svg");
+}
+
+@font-face {
+    font-family: 'Conv_journalism2';
+  src: url("../fonts/Journalism/Journalism/journalism2.eot");
+  src: url("../fonts/Journalism/Journalism/journalism2.woff") format("woff"), url("../fonts/Journalism/Journalism/journalism2.ttf") format("truetype"), url("../fonts/Journalism/Journalism/journalism2.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: "RobotoCondensed";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/RobotoCondensed/RobotoCondensedRegular/RobotoCondensedRegular.eot");
+  src: url("../fonts/RobotoCondensed/RobotoCondensedRegular/RobotoCondensedRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoCondensed/RobotoCondensedRegular/RobotoCondensedRegular.woff") format("woff"), url("../fonts/RobotoCondensed/RobotoCondensedRegular/RobotoCondensedRegular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "RobotoCondensed";
+  font-weight: bold;
+  font-style: normal;
+  src: url("../fonts/RobotoCondensed/RobotoCondensedBold/RobotoCondensedBold.eot");
+  src: url("../fonts/RobotoCondensed/RobotoCondensedBold/RobotoCondensedBold.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoCondensed/RobotoCondensedBold/RobotoCondensedBold.woff") format("woff"), url("../fonts/RobotoCondensed/RobotoCondensedBold/RobotoCondensedBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "RobotoCondensed";
+  font-weight: 300;
+  font-style: normal;
+  src: url("../fonts/RobotoCondensed/RobotoCondensedLight/RobotoCondensedLight.eot");
+  src: url("../fonts/RobotoCondensed/RobotoCondensedLight/RobotoCondensedLight.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoCondensed/RobotoCondensedLight/RobotoCondensedLight.woff") format("woff"), url("../fonts/RobotoCondensed/RobotoCondensedLight/RobotoCondensedLight.ttf") format("truetype");
+}
