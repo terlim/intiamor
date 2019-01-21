@@ -1,3 +1,5 @@
 @import "../blocks/font-face/font-face.css";
 @import "../blocks/core/core.css";
+@import "../blocks/core/off-canvas/off-canvas.css";
 @import "../blocks/header/header.css";
+@import "../blocks/navbar/navbar.css";

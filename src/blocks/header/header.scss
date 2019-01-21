@@ -3,8 +3,6 @@
 @import "../core/mixins";
 
 .header{
-  margin-right: $grid-gutter-width / 4;
-  margin-left:  $grid-gutter-width / 4;
   height: 100px;
   display: grid;
   grid-template-columns: 0fr 1fr 2fr;
@@ -72,9 +70,7 @@
   background: -webkit-linear-gradient(left, #331e0c 0%,#6c6a4b 30%,#6c6a4b 70%,#331e0c 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to right, #331e0c 0%,#6c6a4b 30%,#6c6a4b 70%,#331e0c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#331e0c', endColorstr='#331e0c',GradientType=1 ); /* IE6-9 */
-  min-height: 2px;
-  margin-right: $grid-gutter-width / 4;
-  margin-left:  $grid-gutter-width / 4;
+  min-height: 1px;
   border-radius: 2px;
 }
 
@@ -84,13 +80,7 @@
 
 @include media-breakpoint-up(md){
   .header{
-    margin-right: $grid-gutter-width / 2;
-    margin-left:  $grid-gutter-width / 2;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  .header-bottom-border{
-    margin-right: $grid-gutter-width / 2;
-    margin-left:  $grid-gutter-width / 2;
+   grid-template-columns: 1fr 1fr 1fr;
   }
 
   .header__logo--link{

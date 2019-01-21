@@ -1,6 +1,4 @@
 .header {
-    margin-right: 7.5px;
-    margin-left: 7.5px;
     height: 100px;
     display: grid;
     grid-template-columns: 0fr 1fr 2fr;
@@ -85,23 +83,14 @@
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#331e0c', endColorstr='#331e0c',GradientType=1 );
   /* IE6-9 */
-    min-height: 2px;
-    margin-right: 7.5px;
-    margin-left: 7.5px;
+    min-height: 1px;
     -webkit-border-radius: 2px;
     border-radius: 2px;
 }
 
 @media (min-width: 768px) {
     .header {
-        margin-right: 15px;
-        margin-left: 15px;
         grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    .header-bottom-border {
-        margin-right: 15px;
-        margin-left: 15px;
     }
 
     .header__logo--link {
