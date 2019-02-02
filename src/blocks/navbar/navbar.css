@@ -1,3 +1,7 @@
+.navbar-toggler {
+    padding: .25rem 0rem;
+}
+
 .icon-bar {
     display: block;
     width: 24px;

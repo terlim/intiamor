@@ -1,6 +1,9 @@
 @import "../core/functions";
 @import "../core/variables";
 @import "../core/mixins";
+.navbar-toggler{
+  padding: .25rem 0rem;
+}
 .icon-bar {
   display: block;
   width: 24px;

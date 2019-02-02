@@ -7,7 +7,10 @@ $icon_font_name:"myiconfont";
 	url('../fonts/icons/myiconfont.ttf') format('truetype'),
 	url('../fonts/icons/myiconfont.svg#myiconfont') format('svg');
 }
+%icon-email,
+%icon-loupe,
 %icon-rub,
+%icon-shopping-cart,
 %last_selector {
 		&:before {
 			font-family:$icon_font_name;
@@ -49,6 +52,15 @@ $icon_font_name:"myiconfont";
 	}
 }
 
-%icon-rub:before {
+%icon-email:before {
 	content:'\E001';
+}
+%icon-loupe:before {
+	content:'\E002';
+}
+%icon-rub:before {
+	content:'\E003';
+}
+%icon-shopping-cart:before {
+	content:'\E004';
 }
