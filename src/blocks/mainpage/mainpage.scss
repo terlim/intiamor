@@ -1,0 +1,55 @@
+@import "../core/functions";
+@import "../core/variables";
+@import "../core/mixins";
+
+
+.people{
+  margin: 1rem auto 0 auto;
+}
+
+@media (min-width: 768px) {
+
+  .people {
+    margin: 1rem auto 0 auto;
+    width: 580px;
+    height: auto;
+    background: transparent;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to right, #331e0c 0%, #6c6a4b 30%, #6c6a4b 70%, #331e0c 100%);
+    border-image-slice: 1;
+
+    &__wrapper{
+      display: flex;
+      justify-content: center;
+      background: $body-bg;
+    }
+
+    &__woman{
+      background-image: url(/assets/template-site/img/woman.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      min-height: 200px;
+      min-width: 90px;
+      margin: 2rem .5rem 2rem  auto;
+    }
+    &__man{
+      background-image: url(/assets/template-site/img/man.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      min-height: 200px;
+      min-width: 90px;
+      margin: 2rem auto 2rem .5rem;
+    }
+
+    &__cover{
+      min-width: 100%;
+      min-height: 100%;
+      &:hover{
+        cursor: pointer;
+        
+      }
+    }
+  }
+}

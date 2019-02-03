@@ -1,0 +1,62 @@
+.people {
+    margin: 1rem auto 0 auto;
+}
+
+@media (min-width: 768px) {
+    .people {
+        margin: 1rem auto 0 auto;
+        width: 580px;
+        height: auto;
+        background: transparent;
+        border: 2px solid transparent;
+        -webkit-border-image: -webkit-gradient(linear, left top, right top, from(#331e0c), color-stop(30%, #6c6a4b), color-stop(70%, #6c6a4b), to(#331e0c));
+        -webkit-border-image: -webkit-linear-gradient(left, #331e0c 0%, #6c6a4b 30%, #6c6a4b 70%, #331e0c 100%);
+        -o-border-image: -o-linear-gradient(left, #331e0c 0%, #6c6a4b 30%, #6c6a4b 70%, #331e0c 100%);
+        border-image: -webkit-gradient(linear, left top, right top, from(#331e0c), color-stop(30%, #6c6a4b), color-stop(70%, #6c6a4b), to(#331e0c));
+        border-image: linear-gradient(to right, #331e0c 0%, #6c6a4b 30%, #6c6a4b 70%, #331e0c 100%);
+        border-image-slice: 1;
+    }
+
+    .people__wrapper {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        background: #000;
+    }
+
+    .people__woman {
+        background-image: url(/assets/template-site/img/woman.png);
+        background-repeat: no-repeat;
+        -webkit-background-size: contain;
+        background-size: contain;
+        background-position: center;
+        min-height: 200px;
+        min-width: 90px;
+        margin: 2rem .5rem 2rem  auto;
+    }
+
+    .people__man {
+        background-image: url(/assets/template-site/img/man.png);
+        background-repeat: no-repeat;
+        -webkit-background-size: contain;
+        background-size: contain;
+        background-position: center;
+        min-height: 200px;
+        min-width: 90px;
+        margin: 2rem auto 2rem .5rem;
+    }
+
+    .people__cover {
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+    .people__cover:hover {
+        cursor: pointer;
+    }
+}
