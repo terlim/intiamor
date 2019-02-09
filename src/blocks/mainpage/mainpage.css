@@ -32,10 +32,19 @@
     .people__woman {
         background-image: url(/assets/template-site/img/woman.png);
         background-repeat: no-repeat;
-        -webkit-background-size: contain;
-        background-size: contain;
+        -webkit-background-size: cover;
+        background-size: cover;
         background-position: center;
-        min-height: 200px;
+        min-height: 310px;
+        min-width: 90px;
+        margin: 2rem .5rem 2rem  auto;
+    }
+
+    .people__woman:hover {
+        background-image: url(/assets/template-site/img/woman_hover.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 310px;
         min-width: 90px;
         margin: 2rem .5rem 2rem  auto;
     }
@@ -43,10 +52,19 @@
     .people__man {
         background-image: url(/assets/template-site/img/man.png);
         background-repeat: no-repeat;
-        -webkit-background-size: contain;
-        background-size: contain;
+        -webkit-background-size: cover;
+        background-size: cover;
         background-position: center;
-        min-height: 200px;
+        min-height: 310px;
+        min-width: 90px;
+        margin: 2rem auto 2rem .5rem;
+    }
+
+    .people__man:hover {
+        background-image: url(/assets/template-site/img/man_hover.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 310px;
         min-width: 90px;
         margin: 2rem auto 2rem .5rem;
     }

@@ -2,6 +2,7 @@
 @import "../core/variables";
 @import "../core/mixins";
 
+$people_height: 310px;
 
 .people{
   margin: 1rem auto 0 auto;
@@ -27,20 +28,38 @@
     &__woman{
       background-image: url(/assets/template-site/img/woman.png);
       background-repeat: no-repeat;
-      background-size: contain;
+      background-size: cover;
       background-position: center;
-      min-height: 200px;
+      min-height: $people_height;
       min-width: 90px;
       margin: 2rem .5rem 2rem  auto;
+      &:hover{
+        background-image: url(/assets/template-site/img/woman_hover.png);
+        background-repeat: no-repeat;
+
+        background-position: center;
+        min-height: $people_height;
+        min-width: 90px;
+        margin: 2rem .5rem 2rem  auto;
+      }
     }
     &__man{
       background-image: url(/assets/template-site/img/man.png);
       background-repeat: no-repeat;
-      background-size: contain;
+      background-size: cover;
       background-position: center;
-      min-height: 200px;
+      min-height: $people_height;
       min-width: 90px;
       margin: 2rem auto 2rem .5rem;
+      &:hover{
+        background-image: url(/assets/template-site/img/man_hover.png);
+        background-repeat: no-repeat;
+
+        background-position: center;
+        min-height: $people_height;
+        min-width: 90px;
+        margin: 2rem auto 2rem .5rem;
+      }
     }
 
     &__cover{
