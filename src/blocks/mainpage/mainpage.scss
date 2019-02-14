@@ -3,13 +3,108 @@
 @import "../core/mixins";
 
 $people_height: 310px;
+.mainpage__intro{
+  margin: 1rem auto;
 
-.people{
+  color:#d38d5e;
+  padding: 1rem 0;
+  text-align: center;
+}
+.mainpage__text{
+  margin: 0 auto;
+  text-align: center;
+}
+.people {
   margin: 1rem auto 0 auto;
+  height: auto;
+  background: transparent;
+
+  &__wrapper{
+    display: flex;
+    justify-content: center;
+    background: $body-bg;
+
+  }
+  &__ref{
+    color: inherit;
+  }
+  &__woman{
+    background-image: url(/assets/template-site/img/woman.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    min-height: $people_height;
+    width: 100%;
+
+    &:hover{
+      background-image: url(/assets/template-site/img/woman_hover.png);
+      background-repeat: no-repeat;
+      color: #bf0cea;
+      background-position: center;
+      min-height: $people_height;
+      min-width: 90px;
+    }
+    &-text{
+      position: absolute;
+      top: -1rem;
+
+      width: 100%;
+      text-align: center;
+
+      span{
+        background: $body-bg;
+      }
+    }
+  }
+  &__man{
+    background-image: url(/assets/template-site/img/man.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    min-height: $people_height;
+    width: 100%;
+
+    &:hover{
+      background-image: url(/assets/template-site/img/man_hover.png);
+      background-repeat: no-repeat;
+      color: #bf0cea;
+      background-position: center;
+      min-height: $people_height;
+      min-width: 90px;
+
+    }
+    &-text{
+      position: absolute;
+      top: -1rem;
+
+      width: 100%;
+      text-align: center;
+
+      span{
+        background: $body-bg;
+      }
+    }
+  }
+
+  &__cover{
+    min-width: 100%;
+    min-height: 100%;
+    &:hover{
+      cursor: pointer;
+
+    }
+  }
 }
 
 @media (min-width: 768px) {
-
+  .mainpage__intro{
+    width: 580px;
+  }
+  .mainpage__text{
+    width: 580px;
+  }
   .people {
     margin: 1rem auto 0 auto;
     width: 580px;
@@ -23,42 +118,68 @@ $people_height: 310px;
       display: flex;
       justify-content: center;
       background: $body-bg;
+
     }
 
     &__woman{
       background-image: url(/assets/template-site/img/woman.png);
       background-repeat: no-repeat;
-      background-size: cover;
+      background-size: contain;
       background-position: center;
+      position: relative;
       min-height: $people_height;
-      min-width: 90px;
-      margin: 2rem .5rem 2rem  auto;
+      width: 100%;
+
       &:hover{
         background-image: url(/assets/template-site/img/woman_hover.png);
         background-repeat: no-repeat;
-
+        color: #bf0cea;
         background-position: center;
         min-height: $people_height;
         min-width: 90px;
-        margin: 2rem .5rem 2rem  auto;
+      }
+      &-text{
+        position: absolute;
+        top: -1rem;
+
+        width: 100%;
+        text-align: center;
+
+        span{
+          background: $body-bg;
+          padding: 0 2rem 0 2rem;
+        }
       }
     }
     &__man{
       background-image: url(/assets/template-site/img/man.png);
       background-repeat: no-repeat;
-      background-size: cover;
+      background-size: contain;
       background-position: center;
+      position: relative;
       min-height: $people_height;
-      min-width: 90px;
-      margin: 2rem auto 2rem .5rem;
+      width: 100%;
+
       &:hover{
         background-image: url(/assets/template-site/img/man_hover.png);
         background-repeat: no-repeat;
-
+        color: #bf0cea;
         background-position: center;
         min-height: $people_height;
         min-width: 90px;
-        margin: 2rem auto 2rem .5rem;
+
+      }
+      &-text{
+        position: absolute;
+        top: -1rem;
+
+        width: 100%;
+        text-align: center;
+
+        span{
+          background: $body-bg;
+          padding: 0 2rem 0 2rem;
+        }
       }
     }
 

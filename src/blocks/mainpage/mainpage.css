@@ -1,8 +1,117 @@
+.mainpage__intro {
+    margin: 1rem auto;
+    color: #d38d5e;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.mainpage__text {
+    margin: 0 auto;
+    text-align: center;
+}
+
 .people {
     margin: 1rem auto 0 auto;
+    height: auto;
+    background: transparent;
+}
+
+.people__wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: #000;
+}
+
+.people__ref {
+    color: inherit;
+}
+
+.people__woman {
+    background-image: url(/assets/template-site/img/woman.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    min-height: 310px;
+    width: 100%;
+}
+
+.people__woman:hover {
+    background-image: url(/assets/template-site/img/woman_hover.png);
+    background-repeat: no-repeat;
+    color: #bf0cea;
+    background-position: center;
+    min-height: 310px;
+    min-width: 90px;
+}
+
+.people__woman-text {
+    position: absolute;
+    top: -1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.people__woman-text span {
+    background: #000;
+}
+
+.people__man {
+    background-image: url(/assets/template-site/img/man.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    min-height: 310px;
+    width: 100%;
+}
+
+.people__man:hover {
+    background-image: url(/assets/template-site/img/man_hover.png);
+    background-repeat: no-repeat;
+    color: #bf0cea;
+    background-position: center;
+    min-height: 310px;
+    min-width: 90px;
+}
+
+.people__man-text {
+    position: absolute;
+    top: -1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.people__man-text span {
+    background: #000;
+}
+
+.people__cover {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.people__cover:hover {
+    cursor: pointer;
 }
 
 @media (min-width: 768px) {
+    .mainpage__intro {
+        width: 580px;
+    }
+
+    .mainpage__text {
+        width: 580px;
+    }
+
     .people {
         margin: 1rem auto 0 auto;
         width: 580px;
@@ -32,41 +141,65 @@
     .people__woman {
         background-image: url(/assets/template-site/img/woman.png);
         background-repeat: no-repeat;
-        -webkit-background-size: cover;
-        background-size: cover;
+        -webkit-background-size: contain;
+        background-size: contain;
         background-position: center;
+        position: relative;
         min-height: 310px;
-        min-width: 90px;
-        margin: 2rem .5rem 2rem  auto;
+        width: 100%;
     }
 
     .people__woman:hover {
         background-image: url(/assets/template-site/img/woman_hover.png);
         background-repeat: no-repeat;
+        color: #bf0cea;
         background-position: center;
         min-height: 310px;
         min-width: 90px;
-        margin: 2rem .5rem 2rem  auto;
+    }
+
+    .people__woman-text {
+        position: absolute;
+        top: -1rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .people__woman-text span {
+        background: #000;
+        padding: 0 2rem 0 2rem;
     }
 
     .people__man {
         background-image: url(/assets/template-site/img/man.png);
         background-repeat: no-repeat;
-        -webkit-background-size: cover;
-        background-size: cover;
+        -webkit-background-size: contain;
+        background-size: contain;
         background-position: center;
+        position: relative;
         min-height: 310px;
-        min-width: 90px;
-        margin: 2rem auto 2rem .5rem;
+        width: 100%;
     }
 
     .people__man:hover {
         background-image: url(/assets/template-site/img/man_hover.png);
         background-repeat: no-repeat;
+        color: #bf0cea;
         background-position: center;
         min-height: 310px;
         min-width: 90px;
-        margin: 2rem auto 2rem .5rem;
+    }
+
+    .people__man-text {
+        position: absolute;
+        top: -1rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .people__man-text span {
+        background: #000;
+        padding: 0 2rem 0 2rem;
     }
 
     .people__cover {
