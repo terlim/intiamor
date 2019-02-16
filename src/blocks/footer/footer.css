@@ -6,6 +6,7 @@ footer {
     font-size: .8rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 1rem;
 }
 
 .footer-top-border {
@@ -24,4 +25,13 @@ footer {
     min-height: 1px;
     -webkit-border-radius: 2px;
     border-radius: 2px;
+}
+
+.footer__link {
+    color: #676766;
+}
+
+.footer__link:hover {
+    text-decoration: none;
+    color: #676766;
 }

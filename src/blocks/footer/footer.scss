@@ -9,6 +9,7 @@ footer{
   font-size: .8rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-top: 1rem;
 }
 .footer-top-border {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#331e0c+0,6c6a4b+30,6c6a4b+70,331e0c+100 */
@@ -26,4 +27,11 @@ footer{
   min-height: 1px;
   -webkit-border-radius: 2px;
   border-radius: 2px;
+}
+.footer__link{
+  color: $footer-text-color;
+  &:hover{
+    text-decoration: none;
+    color: $footer-text-color;
+  }
 }

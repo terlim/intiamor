@@ -45,6 +45,7 @@ $green:           #28a745 !default;
 $teal:             #20c997 !default;
 $cyan:            #17a2b8 !default;
 $body-text-color: #c6c6c5;
+$footer-text-color: #676766;
 
 $colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
@@ -158,7 +159,8 @@ $sizes: map-merge(
 //
 // Settings for the `<body>` element.
 
-$body-bg:                   $black;
+$body-bg__mainpage:                   $black;
+$body-bg:                   #313131;
 $body-color:                $body-text-color;
 
 
