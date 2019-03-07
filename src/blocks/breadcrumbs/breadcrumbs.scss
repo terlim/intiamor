@@ -1,0 +1,21 @@
+@import "../core/functions";
+@import "../core/variables";
+@import "../core/mixins";
+
+$breadcrumb-padding-y:              .75rem;
+$breadcrumb-padding-x:              1rem;
+$breadcrumb-item-padding:           .5rem;
+
+$breadcrumb-margin-bottom:          1rem;
+
+$breadcrumb-bg:                     transparent;
+$breadcrumb-divider-color:          $gray-600;
+$breadcrumb-active-color:           $gray-600;
+$breadcrumb-divider:                quote("/");
+
+$breadcrumb-border-radius:          inherit;
+
+.breadcrumb{
+  font-size: .75rem;
+
+}

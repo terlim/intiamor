@@ -115,7 +115,8 @@ $enable-gradients:                            false !default;
 $enable-transitions:                          true !default;
 $enable-prefers-reduced-motion-media-query:   true !default;
 $enable-hover-media-query:                    false !default; // Deprecated, no longer affects any compiled CSS
-
+$enable-grid-classes:                         true;
+$enable-print-styles:                         false !default;
 $enable-validation-icons:                     true !default;
 
 
@@ -991,7 +992,7 @@ $figure-caption-font-size:          90% !default;
 $figure-caption-color:              $gray-600 !default;
 
 
-// Breadcrumbs
+// breadcrumbs
 
 $breadcrumb-padding-y:              .75rem !default;
 $breadcrumb-padding-x:              1rem !default;
