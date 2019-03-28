@@ -1,0 +1,46 @@
+.accordion {
+    padding: 0.4rem 0;
+}
+
+.leftmenu-border {
+    background: #6c6a4b;
+    background: -webkit-gradient(linear, left top, right top, from(#6c6a4b), color-stop(30%, #a19e78), color-stop(70%, #a19e78), to(#6c6a4b));
+    background: -webkit-linear-gradient(left, #6c6a4b, #a19e78 30%, #a19e78 70%, #6c6a4b);
+    background: -o-linear-gradient(left, #6c6a4b, #a19e78 30%, #a19e78 70%, #6c6a4b);
+    background: linear-gradient(90deg, #6c6a4b, #a19e78 30%, #a19e78 70%, #6c6a4b);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#331e0c",endColorstr="#331e0c",GradientType=1);
+    min-height: 1px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    margin-bottom: .5rem;
+}
+
+.leftmenu__item {
+    list-style: none;
+}
+
+.leftmenu__item-link {
+    display: block;
+    color: #b1b1b1;
+}
+
+.leftmenu__item-link:hover {
+    text-decoration: none;
+    color: #d28c5e;
+}
+
+.leftmenu__button {
+    background: transparent;
+    border: none;
+    padding: 0;
+    color: #ececec;
+}
+
+.leftmenu__button:focus {
+    outline: none;
+}
+
+.leftmenu__button:hover {
+    cursor: pointer;
+    color: #d28c5e;
+}

@@ -1,0 +1,39 @@
+@import "../core/functions";
+@import "../core/variables";
+@import "../core/mixins";
+
+.accordion{
+  padding: 0.4rem 0;
+}
+.leftmenu-border {
+  background: #6c6a4b;
+  background: linear-gradient(90deg,#6c6a4b,#a19e78 30%,#a19e78 70%,#6c6a4b);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#331e0c",endColorstr="#331e0c",GradientType=1);
+  min-height: 1px;
+  border-radius: 2px;
+  margin-bottom: .5rem;
+}
+.leftmenu__item{
+  list-style: none;
+   &-link{
+    display: block;
+    color: #b1b1b1;
+    &:hover {
+      text-decoration: none;
+      color: #d28c5e;
+    }
+  }
+}
+.leftmenu__button{
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: #ececec;
+  &:focus{
+    outline: none;
+  }
+  &:hover{
+    cursor: pointer;
+    color: #d28c5e;
+  }
+}
