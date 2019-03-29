@@ -1,0 +1,25 @@
+@import "../core/functions";
+@import "../core/variables";
+@import "../core/mixins";
+
+.ctovar__card-wrapper {
+  padding-bottom: 30px;
+  height: 100%;
+}
+.ctovar__card {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-content: space-between;
+  flex-wrap: wrap;
+  background-color: #1d1d1d;
+  &:hover{
+    background-color: #d9d9d9;
+    color: black;
+  }
+}
+.ctovar__footer {
+
+  flex-grow: 1;
+  padding: .5rem;
+}
