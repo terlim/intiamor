@@ -34,7 +34,6 @@
 .people__woman {
     background-image: url(/assets/template-site/img/woman.png);
     background-repeat: no-repeat;
-    -webkit-background-size: contain;
     background-size: contain;
     background-position: center;
     position: relative;
@@ -65,7 +64,6 @@
 .people__man {
     background-image: url(/assets/template-site/img/man.png);
     background-repeat: no-repeat;
-    -webkit-background-size: contain;
     background-size: contain;
     background-position: center;
     position: relative;
@@ -118,7 +116,7 @@
         background: transparent;
         border: 2px solid transparent;
         -webkit-border-image: -webkit-gradient(linear, left top, right top, from(#331e0c), color-stop(30%, #6c6a4b), color-stop(70%, #6c6a4b), to(#331e0c));
-        -webkit-border-image: -webkit-linear-gradient(left, #331e0c 0%, #6c6a4b 30%, #6c6a4b 70%, #331e0c 100%);
+        -webkit-border-image: linear-gradient(to right, #331e0c 0%, #6c6a4b 30%, #6c6a4b 70%, #331e0c 100%);
         -o-border-image: -o-linear-gradient(left, #331e0c 0%, #6c6a4b 30%, #6c6a4b 70%, #331e0c 100%);
         border-image: -webkit-gradient(linear, left top, right top, from(#331e0c), color-stop(30%, #6c6a4b), color-stop(70%, #6c6a4b), to(#331e0c));
         border-image: linear-gradient(to right, #331e0c 0%, #6c6a4b 30%, #6c6a4b 70%, #331e0c 100%);
@@ -139,7 +137,6 @@
     .people__woman {
         background-image: url(/assets/template-site/img/woman.png);
         background-repeat: no-repeat;
-        -webkit-background-size: contain;
         background-size: contain;
         background-position: center;
         position: relative;
@@ -171,7 +168,6 @@
     .people__man {
         background-image: url(/assets/template-site/img/man.png);
         background-repeat: no-repeat;
-        -webkit-background-size: contain;
         background-size: contain;
         background-position: center;
         position: relative;

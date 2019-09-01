@@ -27,7 +27,6 @@
 .header__logo {
     background-image: url(/assets/template-site/img/logo_intiamor.svg);
     background-repeat: no-repeat;
-    -webkit-background-size: contain;
     background-size: contain;
     background-position: center;
     margin: 10px 0 10px 0;
@@ -65,16 +64,14 @@
     background: #331e0c;
   /* Old browsers */
   /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #331e0c 0%, #6c6a4b 30%, #6c6a4b 70%, #331e0c 100%);
   /* Chrome10-25,Safari5.1-6 */
-    background: -webkit-gradient(linear, left top, right top, from(#331e0c), color-stop(30%, #6c6a4b), color-stop(70%, #6c6a4b), to(#331e0c));
     background: -o-linear-gradient(left, #331e0c 0%, #6c6a4b 30%, #6c6a4b 70%, #331e0c 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#331e0c), color-stop(30%, #6c6a4b), color-stop(70%, #6c6a4b), to(#331e0c));
     background: linear-gradient(to right, #331e0c 0%, #6c6a4b 30%, #6c6a4b 70%, #331e0c 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#331e0c', endColorstr='#331e0c',GradientType=1 );
   /* IE6-9 */
     min-height: 1px;
-    -webkit-border-radius: 2px;
     border-radius: 2px;
 }
 
@@ -120,7 +117,6 @@
     .header__contacts-viber {
         background-image: url(/assets/template-site/img/viber_header.svg);
         background-repeat: no-repeat;
-        -webkit-background-size: contain;
         background-size: contain;
         background-position: center;
         width: 24px;
@@ -130,7 +126,6 @@
     .header__contacts-whatsapp {
         background-image: url(/assets/template-site/img/watsapp.svg);
         background-repeat: no-repeat;
-        -webkit-background-size: contain;
         background-size: contain;
         background-position: center;
         width: 24px;

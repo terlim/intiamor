@@ -227,7 +227,6 @@ label {
 }
 
 button {
-    -webkit-border-radius: 0;
     border-radius: 0;
 }
 
@@ -1160,7 +1159,6 @@ small,
     background-color: #fff;
     background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, 0.15);
-    -webkit-border-radius: 0.25rem;
     border-radius: 0.25rem;
 }
 
@@ -1342,16 +1340,16 @@ small,
 }
 
 .dropdown-item:first-child {
-    -webkit-border-top-left-radius: -webkit-calc(0.25rem - 1px);
+    border-top-left-radius: -webkit-calc(0.25rem - 1px);
     border-top-left-radius: calc(0.25rem - 1px);
-    -webkit-border-top-right-radius: -webkit-calc(0.25rem - 1px);
+    border-top-right-radius: -webkit-calc(0.25rem - 1px);
     border-top-right-radius: calc(0.25rem - 1px);
 }
 
 .dropdown-item:last-child {
-    -webkit-border-bottom-right-radius: -webkit-calc(0.25rem - 1px);
+    border-bottom-right-radius: -webkit-calc(0.25rem - 1px);
     border-bottom-right-radius: calc(0.25rem - 1px);
-    -webkit-border-bottom-left-radius: -webkit-calc(0.25rem - 1px);
+    border-bottom-left-radius: -webkit-calc(0.25rem - 1px);
     border-bottom-left-radius: calc(0.25rem - 1px);
 }
 
@@ -1430,9 +1428,7 @@ small,
 
 .nav-tabs .nav-link {
     border: 1px solid transparent;
-    -webkit-border-top-left-radius: 0.25rem;
     border-top-left-radius: 0.25rem;
-    -webkit-border-top-right-radius: 0.25rem;
     border-top-right-radius: 0.25rem;
 }
 
@@ -1455,14 +1451,11 @@ small,
 
 .nav-tabs .dropdown-menu {
     margin-top: -1px;
-    -webkit-border-top-left-radius: 0;
     border-top-left-radius: 0;
-    -webkit-border-top-right-radius: 0;
     border-top-right-radius: 0;
 }
 
 .nav-pills .nav-link {
-    -webkit-border-radius: 0.25rem;
     border-radius: 0.25rem;
 }
 
@@ -1603,7 +1596,6 @@ small,
     line-height: 1;
     background-color: transparent;
     border: 1px solid transparent;
-    -webkit-border-radius: 0.25rem;
     border-radius: 0.25rem;
 }
 
@@ -1622,7 +1614,6 @@ small,
     vertical-align: middle;
     content: "";
     background: no-repeat center center;
-    -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
 }
 
@@ -1934,7 +1925,6 @@ small,
     margin-bottom: 1rem;
     list-style: none;
     background-color: transparent;
-    -webkit-border-radius: inherit;
     border-radius: inherit;
 }
 
