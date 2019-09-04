@@ -1,0 +1,24 @@
+@import "../core/functions";
+@import "../core/variables";
+@import "../core/mixins";
+
+.tovar__header-wrapper{
+  display: flex;
+  flex-direction: column;
+}
+.tovar__header-title{
+  color: #d28c5e;
+  font-size: 1.5rem;
+  flex-grow: 1;
+}
+.tovar__header-price{
+  font-size: 2rem;
+  text-align: right;
+  margin-left: 1rem;
+}
+
+@include media-breakpoint-up(md){
+  .tovar__header-wrapper{
+    flex-direction: row;
+  }
+}

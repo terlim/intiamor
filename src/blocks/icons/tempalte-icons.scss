@@ -13,3 +13,8 @@
   @extend %icon-shopping-cart;
   font-size: 1.3rem;
 }
+.icon__rub{
+  @extend %icon-rub;
+  font-size: .8rem;
+  padding-left: .2rem;
+}

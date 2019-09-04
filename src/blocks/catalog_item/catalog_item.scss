@@ -19,7 +19,26 @@
   }
 }
 .ctovar__footer {
-
+  display: flex;
   flex-grow: 1;
   padding: .5rem;
+  flex-direction: column;
+}
+.ctovar__footer-title{
+  flex-grow: 2;
+}
+.ctovar__footer-price{
+  flex-grow: 1;
+  align-self: flex-end;
+  white-space: nowrap;
+  text-align: right;
+  margin-left: .5rem;
+}
+@include media-breakpoint-up(md){
+  .ctovar__footer{
+    flex-direction: row;
+  }
+  .ctovar__footer-price{
+    align-self: start;
+  }
 }

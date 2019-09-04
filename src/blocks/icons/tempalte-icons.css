@@ -6,6 +6,7 @@
 
 .icon__email:before,
 .icon__search:before,
+.icon__rub:before,
 .icon__shopping-cart:before {
     font-family: "myiconfont";
     -webkit-font-smoothing: antialiased;
@@ -25,6 +26,10 @@
     content: '\E002';
 }
 
+.icon__rub:before {
+    content: '\E003';
+}
+
 .icon__shopping-cart:before {
     content: '\E004';
 }
@@ -39,4 +44,9 @@
 
 .icon__shopping-cart {
     font-size: 1.3rem;
+}
+
+.icon__rub {
+    font-size: .8rem;
+    padding-left: .2rem;
 }
